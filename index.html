@@ -18,14 +18,16 @@
   <body class="leading-normal tracking-normal text-black gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <!--Nav-->
     <nav id="header" class="fixed w-full z-30 top-0 text-green-500 text-opacity-100 place-content-center pt-3.5 bg-white">
-      <div class="w-full container mx-auto flex flex-shrink md:flex-shrink-0 flex-wrap items-center justify-between mt-0 py-2">
+      <div class="w-full container mx-auto flex flex-shrink md:flex-shrink-0 flex-wrap items-center  mt-0 py-2">
         <div class="pl-4 flex items-center">
+          <p class = "text-black">Visit &nbsp;</p>
           <a class="toggleColour text-green-500 no-underline hover:text-gray-900 font-bold " href="adirondackback.com">
-            <p class = "text-black">Visit</p> adirondackback.com
+              adirondackback.com
           </a>
         </div>
         <div class="w-full flex-grow lg:flex justify-start flex-1 lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20">
-          <img class="inline-block ml-72 mr-auto md:object-scale-down h-12 object-none object-center "src="./images/23183f673e61487f99f44529c9b32e26f19e7487.png" >
+          <img id="logo"class="inline-block ml-72 mr-auto md:object-scale-down h-12 object-none object-center "
+          src="./images/23183f673e61487f99f44529c9b32e26f19e7487.png" >
         </div>
         <div class="block lg:hidden pr-4">
           <button id="nav-toggle" class="flex items-center p-1 text-green-500 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -52,9 +54,9 @@
       <hr class="border-b border-gray-600 opacity-25 my-0 py-0" />
     </nav>
     <!--Hero-->
-    <div class="pt-20">
-      <div class="container px-0 mx-auto flex flex-wrap items-center">
-        <img class="w-full object-fill"src="./images/a54428e0d7351b4ff364aa21242ee20a8853e323.png">
+    <div class="flex flex-wrap pt-20">
+      <div class="container w-full px-0 mx-auto flex flex-wrap items-center">
+        <img id="slider"class=" flex flex-shrink lg:flex-shrink w-full object-fill"src="./images/a54428e0d7351b4ff364aa21242ee20a8853e323.png">
       </div>
     <section class="flex flex-wrap items-center bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-4">
@@ -127,7 +129,7 @@
             </div>
           </div>
         </div>
-        <div class="my-2 w-1/2 leading-tight float-left text-right pr-16 bg-green-500 rounded-r-3xl">
+        <div class="my-2 w-full leading-tight float-left text-right pr-16 bg-green-500 rounded-r-3xl">
           <label class="my-2 w-1/2 text-2xl leading-tight text-right text-black pr-4">Top News & Information</label>
         </div>
         </div>
@@ -204,7 +206,7 @@
     </div>
     </section>
     <section class="container mx-auto text-center py-6 mb-12">
-      <div class="my-2 w-1/2 leading-tight float-right text-right pr-16 bg-green-500 rounded-l-3xl">
+      <div class="my-2 w-full leading-tight float-right text-right pr-16 bg-green-500 rounded-l-3xl">
         <label class="my-2 w-1/2 text-2xl leading-tight text-right text-black pr-4">Find a Branch or ATM</label>
         <input class="border-2 border-gray-500 "type="text" id="fname" name="fname" placeholder="Enter Zipcode">
       </div>
